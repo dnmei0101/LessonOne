@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     private EditText third_one;
     private EditText fourth_one;
     private EditText fifth_one;
-    private EditText sixth_one;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
         third_one = findViewById(R.id.third_one);
         fourth_one = findViewById(R.id.fourth_one);
         fifth_one = findViewById(R.id.fifth_one);
-        sixth_one = findViewById(R.id.sixth_one);
 
 
         changeTextButton.setOnClickListener(v -> mainText.setText("Better app"));
